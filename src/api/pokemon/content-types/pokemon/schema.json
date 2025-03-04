@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pokemons",
+  "info": {
+    "singularName": "pokemon",
+    "pluralName": "pokemons",
+    "displayName": "Pokemon",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Type": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
