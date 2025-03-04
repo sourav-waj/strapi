@@ -250,3 +250,8 @@ section iframe {
     width: 560px;
     height: 315px;
 }
+.strapi h1{
+    text-align: center;
+    font-weight: 200;
+    font-size: 40px;
+}
